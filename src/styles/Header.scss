@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  
+    .logo {
+      font-size: 24px;
+    }
+  
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+  
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+  
+      &:hover {
+        color: #007bff;
+      }
+    }
+  }
